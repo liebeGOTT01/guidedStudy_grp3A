@@ -1,13 +1,4 @@
-<style>
-	.logo {
-    margin: auto;
-    font-size: 20px;
-    background: white;
-    padding: 5px 11px;
-    border-radius: 50% 50%;
-    color: #000000b3;
-}
-</style>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,15 +8,16 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://fontawesome.com/icons">
 </head>
+
+<style>
+.top{
+  background-color:#e74c3c;
+}
+</style>
 <body>
-<nav class="navbar navbar-dark bg-dark fixed-top " style="padding:0;">
+<nav class="navbar navbar-dark top fixed-top " style="padding:15px;">
   <div class="container-fluid mt-2 mb-2">
   	<div class="col-lg-12">
-  		<div class="col-md-1 float-left" style="display: flex;">
-  			<div class="logo">
-  				<i class="fas fa-coins"></i>
-  			</div>
-  		</div>
       <div class="col-md-5 float-left text-white">
         <large><b>Hopia Pastries Sales and Inventory System</b></large>
       </div>
