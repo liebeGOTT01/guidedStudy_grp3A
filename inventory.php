@@ -1,13 +1,13 @@
 <?php include 'db_connect.php' ?>
 <div class="container-fluid">
 	<div class="col-lg-12">
-		<div class="row">
+		<div class="row pt-5">
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header">
 						<h4><b>Inventory</b></h4>
 					</div>
-					<div class="card-body">
+					<div class="card-body ">
 						<table class="table table-bordered">
 							<thead>
 								<th class="text-center">#</th>

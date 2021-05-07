@@ -12,22 +12,26 @@
 		}
 	}
 ?>
-
-<div class="container-fluid">
+<style>
+ #btn{
+	 width:60%;
+ }
+</style>
+<div class="container-fluid pt-5">
 	
 	<div class="col-lg-12">
 		<div class="row">
 			<!-- FORM Panel -->
 			<div class="col-md-4">
 			<form action="" id="manage-product">
-				<div class="card">
+				<div class="card ">
 					<div class="card-header">
 						    Product Form
 				  	</div>
 					<div class="card-body">
 							<input type="hidden" name="id">
 							<div class="form-group">
-								<label class="control-label">SKU</label>
+								<label class="control-label">Product Id</label>
 								<input type="text" class="form-control" name="sku" value="<?php echo $sku ?>">
 							</div>
 							
@@ -62,8 +66,8 @@
 					<div class="card-footer">
 						<div class="row">
 							<div class="col-md-12">
-								<button class="btn btn-sm btn-primary col-sm-3 offset-md-3"> Save</button>
-								<button class="btn btn-sm btn-default col-sm-3" type="button" onclick="$('#manage-product').get(0).reset()"> Cancel</button>
+								<button class="btn btn-sm btn-primary col-sm-3 offset-md-3 ml-2"> Save</button>
+								<button id="btn" class="btn btn-sm btn-danger text-white col-sm-3 offset-md-3 ml-2" type="button" onclick="$('#manage-product').get(0).reset()">X</button>
 							</div>
 						</div>
 					</div>

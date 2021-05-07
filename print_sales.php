@@ -134,7 +134,7 @@ $product = $conn->query("SELECT * FROM product_list  order by name asc");
 <div class="text-right">
 	<div class="col-md-12">
 		<div class="row">
-			<button type="button" class="btn btn-sm btn-primary" id="print"><i class="fa fa-print"></i> Print</button>
+			<button type="button" class="btn btn-sm btn-primary" id="print"><i class="fa fa-print"></i> Print</button>&nbsp;&nbsp;	
         	<button type="button" class="btn btn-sm btn-secondary"  onclick="location.reload()"><i class="fa fa-plus"></i> New Sales</button>
 
 		</div>

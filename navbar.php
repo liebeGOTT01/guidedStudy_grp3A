@@ -1,8 +1,9 @@
 
 <style>
 #sidebar{
-	background-color:#e74c3c;
+	padding-top:5%;
 }
+
 </style>
 <nav id="sidebar" class='mx-lt-5 bg-dark' >
 		

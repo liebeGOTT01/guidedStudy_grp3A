@@ -1,10 +1,10 @@
 <?php include 'db_connect.php' ?>
 <div class="container-fluid">
 	<div class="col-lg-12">
-		<div class="row">
+		<div class="row pt-5">
 			<button class="col-md-2 float-right btn btn-primary btn-sm" id="new_receiving"><i class="fa fa-plus"></i> New Receiving</button>
 		</div>
-		<div class="row">
+		<div class="row pt-3">
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-body">

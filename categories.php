@@ -1,6 +1,6 @@
 <?php include('db_connect.php');?>
 
-<div class="container-fluid">
+<div class="container-fluid pt-5">
 	
 	<div class="col-lg-12">
 		<div class="row">
@@ -24,7 +24,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<button class="btn btn-sm btn-primary col-sm-3 offset-md-3"> Save</button>
-								<button class="btn btn-sm btn-default col-sm-3" type="button" onclick="$('#manage-category').get(0).reset()"> Cancel</button>
+								<button class="btn btn-sm btn-danger text-white col-sm-3" type="button" onclick="$('#manage-category').get(0).reset()">X</button>
 							</div>
 						</div>
 					</div>
