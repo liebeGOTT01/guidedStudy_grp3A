@@ -38,9 +38,11 @@ header("location:index.php?page=home");
 		right:0;
 		width:40%;
 		height: calc(100%);
-		background:white;
 		display: flex;
 		align-items: center;
+		background: rgb(9,9,121);
+		background: linear-gradient(70deg, rgba(9,9,121,0.8463760504201681) 20%, rgba(0,212,255,0.4234068627450981) 35%, rgba(0,212,255,0) 50%);
+		background-size: cover
 	}
 	#login-left{
 		position: absolute;
@@ -89,7 +91,7 @@ header("location:index.php?page=home");
 <body>
 
 
-  <main id="main" class="bg-dark">
+  <main id="main">
   		<div id="login-left">
   		</div>
   		<div id="login-right">  
