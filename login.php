@@ -27,8 +27,7 @@ $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
 	body{
 		width: 100%;
 	    height: calc(100%);
-	    /*background: #007bff;*/
-	}
+		}
 	main#main{
 		width:100%;
 		height: calc(100%);
@@ -51,9 +50,17 @@ $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
 		background:#00000061;
 		display: flex;
 		align-items: center;
+		background-image: url('img/h1.jpg');
+		background-position:center;
+		background-size:cover;
+		background-repeat:no-repeat;
+		border-right:4px solid black;
+		
 	}
+
 	#login-right .card{
-		margin: auto
+		margin: auto;
+		
 	}
 	.logo {
     margin: auto;
@@ -63,24 +70,38 @@ $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
     border-radius: 50% 50%;
     color: #000000b3;
 }
+
+#login-form .avatar img {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: -50px;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	z-index: 9;
+	padding: 0;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}	
 </style>
 
 <body>
 
 
-  <main id="main" class=" bg-dark">
+  <main id="main" class="bg-dark">
   		<div id="login-left">
-  			<div class="logo">
-			  <i class="fas fa-coins"></i>
-  			</div>
   		</div>
-  		<div id="login-right">
-		  
-  			<div class="card col-md-8"><br>
-			  <center><h4>WELCOME</h4></center>
+  		<div id="login-right">  
+  			<div class="card col-md-8 border border-info"><br>
   				<div class="card-body">
-				 
-  					<form id="login-form" >
+  					<form id="login-form">
+					  <div class="form-group">
+					  <div class="avatar">
+						<img src="img/admin.png" alt="Avatar" style="">
+					</div>
+					<h2 class="text-center mt-2 text-primary">Member Login</h2>  
+					  </div>
   						<div class="form-group">
   							<label for="username" class="control-label">Username</label>
   							<input type="text" id="username" name="username" class="form-control">
