@@ -15,11 +15,11 @@ session_start();
 if(isset($_SESSION['login_id']))
 header("location:index.php?page=home");
 
-$query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
-		foreach ($query as $key => $value) {
-			if(!is_numeric($key))
-				$_SESSION['setting_'.$key] = $value;
-		}
+// $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
+		// foreach ($query as $key => $value) {
+		// 	if(!is_numeric($key))
+		// 		$_SESSION['setting_'.$key] = $value;
+		// }
 ?>
 
 </head>
