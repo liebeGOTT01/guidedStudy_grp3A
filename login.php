@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Admin | Groceries Sales and Inventory System</title>
+  <title>Admin | Hopia Sales and Inventory System</title>
  	
 
 <?php include('./header.php'); ?>
@@ -71,12 +71,15 @@ $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
   <main id="main" class=" bg-dark">
   		<div id="login-left">
   			<div class="logo">
-  				<span class="fa fa-coins"></span>
+			  <i class="fas fa-coins"></i>
   			</div>
   		</div>
   		<div id="login-right">
-  			<div class="card col-md-8">
+		  
+  			<div class="card col-md-8"><br>
+			  <center><h4>WELCOME</h4></center>
   				<div class="card-body">
+				 
   					<form id="login-form" >
   						<div class="form-group">
   							<label for="username" class="control-label">Username</label>
